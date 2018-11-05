@@ -1,5 +1,4 @@
-#Developer; jMelody{}
-#!/usr/bin/env python3
+#Developer: jMelody{}
 """       turtle-example-suite:
 
              tdemo_clock.py
