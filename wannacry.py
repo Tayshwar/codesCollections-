@@ -1,5 +1,7 @@
-# This code is copied {}
-#wannaCry-v.py
+#This code is copied from OUTSOURCE{}
+#wannaCry-v.py{}
+#outputLanguage ; French{}
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from pyvirtualdisplay import Display
