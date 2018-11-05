@@ -1,0 +1,2 @@
+#This is the output file.Execute{}
+ddosattack.py < Hostname > < Port > < Number_of_Attacks >
